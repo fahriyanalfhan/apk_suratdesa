@@ -299,7 +299,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id_users`, `id_warga`, `email`, `password`, `role_id`, `created_at`, `updated_at`) VALUES
 (1, 1, 'warga@gmail.com', '$2y$10$VsBeiMGl4uNk8kV.RdaqyuDSivDfj0nkQCNY6FRmuC4mMLHQBUWem', 3, '2022-04-11 05:55:19', '0000-00-00 00:00:00'),
 (2, 2, 'warga2@gmail.com', '$2y$10$VsBeiMGl4uNk8kV.RdaqyuDSivDfj0nkQCNY6FRmuC4mMLHQBUWem', 3, '2022-06-19 00:33:35', '0000-00-00 00:00:00'),
-(3, 3, 'Fahriy@gmail.com', '$2y$10$gNTCRmgoLrhoVL2Z82HGyOyfnQJoY6Zt8tgwoBNA2OJFdGUZfmLou', 3, '2024-05-28 15:22:17', '2024-07-10 16:44:54'),
+(3, 3, 'andena@gmail.com', '$2y$10$gNTCRmgoLrhoVL2Z82HGyOyfnQJoY6Zt8tgwoBNA2OJFdGUZfmLou', 3, '2024-05-28 15:22:17', '2024-07-10 16:44:54'),
 (5, 4, 'wargah@gmail.com', '$2y$10$gr8GW0fEiDk.lptB026kAOcgcByYa5A1hfyKyP9YYs7GAdDnc5amy', 3, '2024-07-22 16:11:18', '0000-00-00 00:00:00'),
 (6, 5, 'warga3@gmail.com', '$2y$10$z.q3/E/l5tkYO9AuxZR3cOzWrJJfyy27.BVP9peuh9/qcEuHsDYdi', 3, '2024-07-23 05:13:03', '0000-00-00 00:00:00');
 
@@ -339,7 +339,7 @@ CREATE TABLE `warga` (
 INSERT INTO `warga` (`id_warga`, `kk`, `nik`, `nama`, `jekel`, `agama`, `golongan_darah`, `pendidikan`, `status_pernikahan`, `pekerjaan`, `tempat_lahir`, `tgl_lahir`, `rt`, `rw`, `alamat`, `nik2`, `nama2`, `jekel2`, `created_at`, `updated_at`) VALUES
 (1, '111111', '2112121212', 'Kurniawan', 'Laki-laki', 'Islam', '', 'Tamat SMA/Sederajat', 'Belum Menikah', 'Freelancer', 'Banjar', '2000-02-02', 1, 3, 'Desa Brantaksekarjati, Rt.001/Rw.002 Kecamatan Welahan Kabupaten Jepara', '', '', '', '2022-04-02 00:03:14', '2024-07-29 09:38:25'),
 (2, '222222', '12121121', 'Awaliyanto', 'Laki-laki', 'Islam', 'A', 'Tamat SD/Sederajat', 'Menikah', 'Lorme', 'Lorem', '2022-12-31', 1, 2, 'Lorem', '', '', '', '2022-06-19 05:32:50', '2024-07-29 09:38:10'),
-(3, '111111', '1234321912123451', 'Fahriyan Alfhan Batubara ', 'Laki-laki', 'Islam', 'O', 'Tamat SMA/Sederajat', 'Belum Menikah', 'Mahasiswa', 'Bandung', '2000-02-02', 5, 8, 'Jl. Akasia I', '', '', '', '2024-05-28 20:20:56', '2024-07-29 09:38:04'),
+(3, '111111', '1234321912123451', 'Andena L ', 'Laki-laki', 'Islam', 'O', 'Tamat SMA/Sederajat', 'Belum Menikah', 'Mahasiswa', 'Bandung', '2000-02-02', 5, 8, 'Jl. Akasia I', '', '', '', '2024-05-28 20:20:56', '2024-07-29 09:38:04'),
 (4, '222222', '1234321911123451', 'Hadi R', 'Laki-laki', 'Islam', 'O', 'Tamat SMA/Sederajat', 'Belum Menikah', 'Mahasiswa', 'Bandung', '1993-02-09', 5, 12, 'Akasia II', '', '', '', '2024-07-22 21:04:39', '2024-07-29 09:37:57'),
 (5, '5392781012345678', '1234321912421451', 'Teddy', 'Laki-laki', 'Islam', 'O', 'S1', 'Menikah', 'Pegawai Swasta', 'Bandung', '1989-01-09', 5, 12, 'Jl. Damar II 55c', '', '', '', '2024-07-23 10:12:41', '2024-07-30 21:07:36'),
 (8, '5392781012345678', '4781239056789012', 'Rima R', 'Perempuan', 'Islam', 'AB', 'S1', 'Menikah', 'IRT', 'Bandung', '1990-07-13', 5, 12, 'Jl. Damar II No.55cs', '', '', '', '2024-07-30 21:06:04', '2024-08-06 23:40:52');
