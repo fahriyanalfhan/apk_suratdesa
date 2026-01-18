@@ -27,7 +27,7 @@ Sebelum menjalankan aplikasi ini, pastikan Anda sudah menginstal:
 ## 🔧 Cara Instalasi
 1. **Clone atau Download** repositori ini:
    ```bash
-   git clone [https://github.com/fahriyanalfhan/apk_suratdesa.git](https://github.com/fahriyanalfhan/apk_suratdesa.git)
+   git clone https://github.com/fahriyanalfhan/apk_suratdesa.git
 2. Pindahkan folder proyek ke folder htdocs (jika menggunakan XAMPP).
 
 3. Import Database:
